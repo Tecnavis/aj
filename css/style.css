@@ -1286,8 +1286,18 @@ display: block;
     margin: 0px;
 }
  .rable-box figure img {
-    width: 100%;
-}
+     
+          max-width: 100%;
+          height: auto;
+       }
+       
+       /* Hide the image on screens smaller than 768px (adjust the breakpoint as needed) */
+       @media (max-width: 767px) {
+          .desktop-only {
+             display: none;
+          }
+       }
+
 /** end contact section **/
 
 
