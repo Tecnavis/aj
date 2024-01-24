@@ -1014,6 +1014,16 @@
      line-height: 40px;
 }
  .d_flex {display: flex; align-items: center; justify-content: center;}
+ .text-bg{
+     margin-top:180px ;
+
+     
+ }
+ @media (max-width: 600px) {
+     .text-bg {
+         padding: 10px; /* Adjust padding for smaller screens */
+     }
+ }
  .text-bg h1 {
      color: #000;
      padding-top: 50px;
@@ -1021,6 +1031,7 @@
      line-height: 94px;
     padding-bottom: 25px;
     font-weight: bold;
+
 }
  
  .text-bg span {
@@ -1040,11 +1051,13 @@
      padding: 10px 40px;
      border-radius: 27px;
      display: inline-block;
-     margin-top: ;
+ 
+  
 }
  .text-bg a:hover {
     background-color: #000;
      color: #fff;
+ 
 
 }
  .text {
