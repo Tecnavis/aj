@@ -994,7 +994,7 @@
 /* --------------------------------------------------------------------- top banner area ---------------------------------------------------------------------*/
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
  .header-top {
-    background:url(../images/4865746.jpg);
+    background:url(../images/WhatsApp\ Image\ 2024-01-23\ at\ 2.35.59\ PM.jpeg);
    
      background-size: 100% 100%;
      background-repeat: no-repeat;
@@ -1040,10 +1040,12 @@
      padding: 10px 40px;
      border-radius: 27px;
      display: inline-block;
+     margin-top: ;
 }
  .text-bg a:hover {
     background-color: #000;
      color: #fff;
+
 }
  .text {
     position: inherit;
