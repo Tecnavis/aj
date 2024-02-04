@@ -45,8 +45,31 @@
             height: auto; /* Maintain the image's aspect ratio */
             display: block; /* Remove extra space below the image */
          }
-         
-               </style>
+         .store-buttons {
+            display: flex;
+            gap: 20px;
+         }
+
+         .store-button {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #000;
+            height: 120px; /* Set a fixed height for the buttons */
+         }
+
+         .store-button img {
+            width: 120px;
+            height: 40px;
+            object-fit: contain;
+            margin-bottom: 8px;
+         }
+
+         .store-button span {
+            font-size: 14px;
+         }
+      </style>
          
    </head>
    <!-- body -->
@@ -552,17 +575,29 @@
          <div class="footer">
             <div class="container">
                <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-md-4">
                      <div class="call_now2">
                         <span>MISNA GOLD</span>
-                        <h5>Shop#7, Behind Gold Land blg</h5>
+                        <h5 style="margin-top: 20px;">Shop#7, Behind Gold Land blg</h5>
                         <h5>AL Daghaya,Dubai-UAE </h5>
                         <h5><a href="mailto:info@misnagold.com">E-mail: info@misnagold.com</a></h5>
-
-                       
                      </div>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-4 call_now2" >
+                     <span style="display: flex;justify-content: center;">Download our App</span>
+                     <div class="store-buttons" style="margin-top: 30px;display: flex;justify-content: center;">
+                        <!-- Google Play Store Button -->
+                        <a href="https://drive.google.com/file/d/1_bDwe0R0XLYK_HeCFkF9k72rGDvQJ5Xq/view?usp=sharing" class="store-button" target="_blank">
+                          <img src="./images/PlayStore_Badge.png"  alt="Google Play Store">
+                        </a>
+                    
+                        <!-- Apple App Store Button -->
+                        <a href="#" class="store-button" target="_blank">
+                          <img src="./images/App_Store_Badge.png" alt="Apple App Store">
+                        </a>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
                      <div class="call_now">
                         <h3>Call Now</h3>
                         <h2><a href="tel:+971542790916"> (+971)542790916</a></h2>
